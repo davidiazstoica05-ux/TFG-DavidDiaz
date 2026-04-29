@@ -63,7 +63,7 @@ La zona de admin estaría quizas bien que tuviese una pestaña de más donde ten
 Habrá tres menús: 
 
 1. Home: Aquí se encontrara un breve información de todo. Sobre los repartidores, los pedidos y el tiempo estimado y que se pueda filtrar por nombre, o por peso
-2. Repartidores: En la ultima vista se puede ver mas o menos la idea, pero creo que sería mejor idea poner solo el tiempo restante en lugar de una barra de tiempo (Depende de la velocidad que llevemos en el trabajo). 
+2. Repartidores: En la ultima vista se puede ver mas o menos la idea, pero creo que sería mejor idea poner solo el tiempo restante en lugar de una barra de tiempo (Depende de la velocidad que llevemos en el trabajo) Bootstrap tiene una forma de poner la barra de progresión . 
    Tendrá dos submenú. Uno en el que muestre los activos y otro en el que muestre los no activos.
    Quizás es buena idea que cuando un repartidor termine su recorrido el Dashboard se ponga en gris y al lado salgan una x en rojo (para eliminar) y un símbolo para ver el recorrido y el tiempo en el que lo ha hecho. Una vez descartado el rider se pasara automáticamente a no activo.  Así podría cumplir el requisito de que no se puede tener varios a la vez (¿Más de dos?). 
 3. Envíos: Cuando entras sale una lista de todos los envíos donde puedas ordenar por peso, fecha entrega, zona o repartidor. Tendría un circulo a la derecha que te diría si esta entregado o si fue fallida. Esto se podría hacer con una tabla y que la logica de filtrado resida en los td, como vi en las practicas  
